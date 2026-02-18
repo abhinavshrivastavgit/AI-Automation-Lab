@@ -16,12 +16,20 @@ This is the first production-ready module of my AI Automation Lab. It focuses on
 
 While many basic AI implementations are "stateless" (forgetting the user immediately), this version (v1.0) introduces **Window Buffer Memory**. I designed this to ensure that complex technical discussions—such as debugging Data Structures (e.g., Binary Trees)—can be handled over multiple exchanges without losing context.
 
+### The Workflow
+
+<img src = "https://github.com/abhinavshrivastavgit/AI-Automation-Lab/blob/main/minor/image_folder/01-stateful-ai-assistant_logic_workflow.png " alt ="The Workflow" width = "720px" >
+
 ### 🛠️ Technical Specifications
 
 - **Orchestration:** n8n (using the "AI Agent" node for modularity)
 - **LLM Engine:** Google Gemini 1.5 Flash
 - **Memory Logic:** Window Buffer Memory (configured for a 5-exchange rolling window)
 - **Trigger Type:** Synchronous "On Chat Message" (for zero-latency response)
+
+### OUTPUT
+
+<img src = "https://github.com/abhinavshrivastavgit/AI-Automation-Lab/blob/main/minor/image_folder/01-stateful-ai-assistant_logic_chat_preveiw01.png" alt = "Chat screenshot" width = "720px">
 
 ### 🚀 Future Roadmap for this Module
 
